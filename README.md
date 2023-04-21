@@ -35,8 +35,8 @@ Your stacc now looks like this:
 
 ```
 [ 0 1 2 3 4 5 6 7 8 9 A B C D E F ]
-  ^                             ^
-  BP (base pointer)             SP (stacc pointer), F is referred to as TOS (top of stacc)
+                                ^
+                                SP (stacc pointer), F is referred to as TOS (top of stacc)
 ```
 
 

@@ -31,8 +31,8 @@ func main() {
 		kitty.HuntLaser()
 
 		if kitty.IsObserved() {
-			fmt.Printf("%s\n", kitty.CurrentStacc())
-			fmt.Printf("%s\n", kitty.CurrentInstruction())
+			fmt.Println(kitty.CurrentStacc())
+			fmt.Println(kitty.Fetch())
 		}
 	}
 }
