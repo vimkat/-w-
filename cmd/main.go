@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"kitty/kitty"
+	"kitty"
 )
 
 func main() {
